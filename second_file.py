@@ -1,10 +1,10 @@
 def hello_world_function():
     print("Hello world!")
 
-def print_my_name():
-    print("Hi my name is Danilo")
+def print_my_name(name):
+    print(f"Hi my name is {name}")
 
 hello_world_function()
 
-print_my_name()
+print_my_name("Danilo")
 
